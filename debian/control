@@ -1,0 +1,17 @@
+Source: freertos
+Section: devel
+Priority: optional
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+Homepage: https://bitbucket.org/arco_group/pkg.freertos
+
+Package: freertos
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: source files for FreeRTOS operating system
+ Market leading RTOS from Real Time Engineers Ltd. that supports 35
+ architectures. It is professionally developed, strictly quality
+ controlled, robust, supported, and free to embed in commercial
+ products without any requirement to expose your proprietary source
+ code.
